@@ -1,0 +1,11 @@
+Sometimes there is an error regarding DB Table which is the hidden table.
+The error message shown that "Try to repair db table"
+You may follow these steps to repair the db tables:
+1. Goto phpmyadmin
+2. Choose a database
+3. Use sql command
+4. Type this command and press Go:
+  REPAIR TABLE mysql.db;
+  The result will show that mysql.db has been repaired.
+5. Do the same for each database
+6. Done.
